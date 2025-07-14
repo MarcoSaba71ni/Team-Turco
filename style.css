@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Redwing";
+    src: url("../fonts/Redwing-Light.otf") format("truetype");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    font-family: "Redwing";
+    height: 70px;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    text-decoration: none;    
+    font-family: "Redwing";
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    border-bottom: 2px solid white;
+}
+
+.icon {
+    font-family: "Redwing";
+}
+
+.logo-img {
+    width: 60px;
+    height: auto;
+}
+
+h1,
+h2 {
+    font-family: "Redwing";
+}
+
+.cta_button {
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-family: "Redwing";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.cta_button:hover {
+    background-color: white;
+    color: black;
+    transition: 2ms;
+}

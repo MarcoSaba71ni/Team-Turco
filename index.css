@@ -1,0 +1,15 @@
+.hero {
+    background: url("images/Trainers-TeamTurco/Diogo-img1.jpeg");
+    position: relative;
+    background-size: cover;
+    background-position: center 65%;
+    font-family: "Redwing";
+    min-height: 80vh;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
