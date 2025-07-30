@@ -1,0 +1,61 @@
+.body-performance {
+    background-color: black;
+}
+
+.body-performance h1, 
+p {
+    color: white;
+
+}
+
+.hero-performance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.hero-text {
+    margin-top: 70px;
+}
+
+.banner-text h2 {
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.banner-img {
+    width: 90%;
+    justify-self: center;
+}
+
+.performance-banner {
+    width: 100%;
+}
+.banner-img img {
+    width: 90%;
+    height: 455px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: absolute;
+}
+.banner-img h2 {
+    color: white;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+}

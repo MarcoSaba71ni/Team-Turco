@@ -1,0 +1,250 @@
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom:  1px solid #FFF;
+}
+
+.image-header {
+    width: 80px;
+    height: auto;
+}
+
+#links-header, #profile-header {
+    padding-top: 30px;
+}
+
+#links-header a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: 20px;
+}
+
+#profile-header a {
+    text-decoration: none;
+    color: white;
+   padding-top: 8px;
+}
+
+#profile-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: 16px;
+}
+
+#icon-header {
+    width: 29px;
+  height: 29px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* makes it circular */
+}
+
+.icon-wrapper i {
+  color: white;
+  font-size: 16px; /* adjust size inside the box */
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: 20px;
+}
+
+
+#links-footer , #social-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 70px;
+}
+
+#links-footer a , #social-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.body-login {
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+.log-in_img {
+    width: 342px;
+    height: 342px;
+}
+
+.log-in_content {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    color: white;
+}
+
+
+.log-in_info {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+.account-main {
+    padding-left: 8rem;
+    width: 100%;
+}
+
+.account-main h1{
+    color: #000;
+    font-family: "Montserrat Subrayada";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.account-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.account-tab {
+    background-color: black;
+    width: 310px;
+    color: #FFF;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.account-tab button {
+    background-color: black;
+    color: white;
+    width: 310px;
+    height: 70px;
+}
+
+.account-button {
+    text-align: left;
+    padding: 5px 149px 6px 29px;
+    color: #FFF;
+    font-family: "Amiri Quran Colored";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.account-info {
+    background-color: black;
+    color: white;
+    width: 671px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0; 
+}
+
+.account-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 119px;   
+    padding-top: 31px; 
+}
+
+.account-main {
+    padding-bottom: 100px;
+}
+
+.first-p {
+    color: #8F8888;
+    font-family: "Amiri Quran Colored";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second-p {
+    color: #FFF;
+    font-family: "Amiri Quran Colored";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info-column {
+    padding-left: 88px;
+}
+
+.account-info button {
+    width: auto;
+    height: auto;
+    background-color: #383434;
+    color: white;
+}
+
+.button_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button_cta {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    color: #FFF;
+    font-family: "Montserrat Subrayada";
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #383434;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px; 
+    line-height: 1; 
+    cursor: pointer;
+    width: auto; 
+    height: auto; 
+}
+
+.input-account {
+    width: 200px;
+    height: 30px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+
