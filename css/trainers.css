@@ -1,0 +1,80 @@
+.main-trainers h1 {
+    padding: 56px 0 50px 10%;
+}
+
+.trainers-wrapper {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.trainer-img {
+    width: 380px;
+    height: 325px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.trainer-card-cabral {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0 20px 0 5%;
+    gap: 50px;
+    background-color: lightgray;
+}
+
+.trainer-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black;
+    padding: 20px;
+    margin: 0 20px 0 5%;
+    gap: 50px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.trainer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-cabral {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.div-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trainers-btn {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.trainer-content-cabral {
+    justify-content: space-evenly;
+}
