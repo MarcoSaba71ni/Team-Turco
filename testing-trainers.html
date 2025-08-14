@@ -32,7 +32,7 @@
             <h1>Our Trainers</h1>
             <section class="trainers-wrapper">
                 <div class="trainer-card">
-                    <div class="trainer-view">
+                    <div class="trainer-view" id="diogo-view">
                         <img src="images/Trainers-TeamTurco/Diogo-img6.jpeg" alt="Diogo adm training" class="img-diogo">
                         <div class="trainer-txt">
                             <h2>Diogo </h2>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="trainer-content">
+                <div class="trainer-content" id="diogo-content">
                     <h3>Born and raised in Rio de Janeiro, Brazil,</h3>
                     <div class="trainer-info">
                         <div class="info-txt">
@@ -65,10 +65,16 @@
 
                 
                     </div>
-                <div class="div-btn">
-                    <button class="trainers-btn">
+                <div class="div-btn" id="diogo-more-div">
+                    <button class="trainers-btn" id="diogo-more-btn">
                         <p class="p-3">show more</p>
                         <i class="fa-solid fa-chevron-down fa-xl" style="color: black;"></i>
+                    </button>
+                </div>
+                <div class="div-btn" id="diogo-less-div">
+                    <button class="trainers-btn" id="diogo-less-btn">
+                        <i class="fa-solid fa-chevron-up fa-xl" style="color: black;"></i>
+                        <p class="p-3">show less</p>
                     </button>
                 </div>
             </section>
@@ -111,5 +117,6 @@
                 </div>
             </section>
         </main>
+    <script src="js/trainers.js"></script>
     </body>
 </html>

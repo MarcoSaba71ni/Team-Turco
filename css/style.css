@@ -45,6 +45,25 @@ header {
     height: auto;
 }
 
+.dropdown-links {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-links li {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-links li a {
+    text-decoration: none;
+}
+
 h1,
 h2 {
     font-family: "Redwing";
@@ -72,3 +91,6 @@ h2 {
     transition: 8ms;
 }
 
+@media (max-width: 768) {
+
+}

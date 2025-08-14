@@ -42,6 +42,11 @@
     display: block;
 }
 
+#diogo-content,
+#diogo-less-div {
+    display: none;
+}
+
 .trainer-content {
     align-items: center;
     width: 85%;
@@ -162,4 +167,20 @@
     flex-direction: row;
     gap: 15px;
     flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  .trainer-content img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .diogo-exp-display {
+    flex-wrap: wrap;
+  }
+
+  .main-trainers h1,
+  .trainer-content  h3 {
+    font-size: 24px;
+  }
 }
