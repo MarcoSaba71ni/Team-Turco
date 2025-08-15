@@ -4,6 +4,7 @@
 }
 
 header {
+    position: relative;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -32,12 +33,29 @@ header {
     color: white;
 }
 
+.dropdown,
+.burguer-div {
+    display: none;
+}
+
+.dropdown {
+    position: absolute;
+    top: 80%;  
+    right: 0;     /* directly below the header */
+}
+
+.burguer-btn {
+    background-color: transparent;
+}
+
 .links a:hover {
     border-bottom: 2px solid white;
 }
 
-.icon {
+.flag-btn {
+    padding: 20px;
     font-family: "Redwing";
+    background-color: transparent;
 }
 
 .logo-img {
@@ -53,14 +71,20 @@ header {
 }
 
 .dropdown-links li {
-    padding: 10px;
+    padding: 10px 40px 10px 10px;
     background-color: black;
     border: 1px solid white;
     text-decoration: none;
     color: white;
 }
 
-.dropdown-links li a {
+.dropdown-links li:hover {
+    transition: 0.2;
+    background-color: white;
+    color: black;
+}
+
+.dropdown-links a {
     text-decoration: none;
 }
 
@@ -91,6 +115,26 @@ h2 {
     transition: 8ms;
 }
 
-@media (max-width: 768) {
+@media (max-width: 480px) {
 
+    header {
+        justify-content: space-around;
+    }
+
+    .burguer-div {
+        display: flex;
+    }
+
+    .burguer-div {
+
+    }
+
+    .flag-btn {
+        padding-top: 20px;
+        background-color: transparent;
+    }
+
+    .links {
+        display: none;
+    }
 }
